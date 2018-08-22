@@ -1,3 +1,4 @@
+
 class Person
 
   def initialize(name) # initialize the method
@@ -14,6 +15,6 @@ class Person
 
 end
 
-beyonce = Person.new("Beyonce")
+# beyonce = Person.new("Beyonce")
 
 # puts beyonce.name
