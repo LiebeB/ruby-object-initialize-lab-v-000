@@ -43,8 +43,9 @@
 
 class Dog
 
-  def initialize(name) # initialize the method
+  def initialize(name, breed) # initialize the method
     @name = name
+    @breed = breed
   end
 
   def name=(name) # writing the method
@@ -53,6 +54,14 @@ class Dog
 
   def name # reading the method
     @name
+  end
+
+  def breed=(breed) # write breed method
+    @breed = breed
+  end
+
+  def breed # read breed method
+    @breed
   end
 
 end
