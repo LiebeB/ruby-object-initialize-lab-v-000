@@ -43,7 +43,7 @@
 
 class Dog
 
-  def initialize(name, breed) # initialize the method
+  def initialize(name, breed = "Mutt") # initialize the method
     @name = name
     @breed = breed
   end
