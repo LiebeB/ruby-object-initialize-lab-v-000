@@ -3,6 +3,7 @@
 class Dog
 
   def initialize(name, breed = "Mutt") # initialize the method
+    # defaults the breed argument to "Mutt"
     @name = name
     @breed = breed
   end
